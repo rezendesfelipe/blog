@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: OIDC-Terraform-GH-AZ
+        working-directory: blog/OIDC-Terraform-GH-AZ/
     steps:
       - name: Azure login
         uses: azure/login@v2
