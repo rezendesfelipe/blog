@@ -9,8 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: OIDC-Terraform-GH-AZ/
+        working-directory: ./OIDC-Terraform-GH-AZ
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
       - name: Azure login
         uses: azure/login@v2
         with:     
