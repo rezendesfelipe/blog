@@ -7,7 +7,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "oidc" {
-  name     = "rg-oidc-aplicado"
+  name     = "rg-oidc-teste"
   location = var.azure_region
 }
 
